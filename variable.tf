@@ -7,7 +7,7 @@ variable "ami_id" {
 variable "instance_type" {
   description = "Type of instance to be launched"
   type        = string
-  default     = "t3.micro"
+  default     = "t2.micro"
 }
 
 variable "vm_name" {
