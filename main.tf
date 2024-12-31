@@ -5,6 +5,6 @@ resource "aws_instance" "linux_vm" {
   subnet_id     = aws_subnet.public_subnet1.id
 
   tags = {
-    Name = var.machine_name
+    Name = var.machines_name
   }
 }

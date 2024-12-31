@@ -10,7 +10,7 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
-variable "machine_name" {
+variable "machines_name" {
   description = "A brief description of the variable"
   type        = string
 }
